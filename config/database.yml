@@ -13,17 +13,10 @@ test:
   database: db/test.sqlite3
   timeout: 5000
 
-#production:
- # adapter: sqlite3
-  #database: db/production.sqlite3
-  #timeout: 5000
+production:
+  adapter: sqlite3
+  database: db/production.sqlite3
+  timeout: 5000
   
-production: 
-  encoding: unicode
-  adapter: postgresql
-  username: postgres
-  port: 5432
-  host: localhost
-  database: production
-  password: 878499
+
 
